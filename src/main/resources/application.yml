@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/career_coach?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+cal:
+  baseUrl: https://cal.com/zhij-76rxqy
+  cancelUrl : https://app.cal.com/booking
